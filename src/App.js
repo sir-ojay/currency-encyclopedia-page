@@ -3,8 +3,7 @@ import { BrowserRouter as Router, Routes , Route } from "react-router-dom";
 import NavComponent from './components/NavComponent';
 import Footer from './components/Footer';
 
-
-import Home from "../../client/src/Pages/Home"
+// import Home from "../../client/src/Pages/Home"
 // import Convert from "../../client/src/pages/Convert";
 // import Contact from "../../client/src/pages/Contact";
 // import Compliance from "../../client/src/pages/Compliance";
@@ -37,8 +36,8 @@ function App() {
         <NavComponent />
         <Routes >
           {/*---==== Contents Sections  ====---*/}
-            <Route path="/" element={<Home/>} /> 
-            {/* <Route path="/convert" element={<Convert/>} />
+            {/* <Route path="/" element={<Home/>} /> 
+            <Route path="/convert" element={<Convert/>} />
             <Route path="/contact" element={<Contact/>} />
             <Route path="/compliance" element={<Compliance/>} /> 
             <Route path="/help-center" element={<HelpCenter/>} /> 
@@ -61,8 +60,8 @@ function App() {
             <Route path="/CookiePolicy" element={<CookiePolicy/>} />
             <Route path="/glossary" element={<Glossary/>} /> 
             <Route path="/advertising" element={<OnlineAdvertising/>} />
-            <Route path="/ambassadors" element={<Ambassadors/>} /> */}
-          {/*---==== end of Contents Sections  ====---*/}
+            <Route path="/ambassadors" element={<Ambassadors/>} />  */}
+          {/* ---==== end of Contents Sections  ====--- */}
         </Routes >
         <Footer />
       </div>
