@@ -5,7 +5,6 @@ import {
 
    
   CurrencyContainer,
-  CurrencyWrapper,
   Header,
   ImageRateWrapper,
   ImageTable,
